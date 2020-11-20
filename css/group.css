@@ -40,9 +40,33 @@
   background: #eaf4f5;
 }
 
+.groups__wrapper .groups__wrapper .groups__line .group__td:first-child {
+  padding-left: 3rem !important;
+}
+
+.groups__wrapper .groups__wrapper .groups__tab .table__line__header {
+  padding-left: 2.25rem !important;
+}
+
 .groups__wrapper .groups__wrapper .groups__wrapper .groups__tab,
 .groups__wrapper .groups__wrapper .groups__wrapper .groups__line {
   background: rgb(193, 223, 224);
+}
+
+.groups__wrapper
+  .groups__wrapper
+  .groups__wrapper
+  .groups__line
+  .group__td:first-child {
+  padding-left: 4.5rem !important;
+}
+
+.groups__wrapper
+  .groups__wrapper
+  .groups__wrapper
+  .groups__tab
+  .table__line__header {
+  padding-left: 3.75rem !important;
 }
 
 .groups__tab:hover {
