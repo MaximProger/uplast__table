@@ -1,0 +1,90 @@
+.groups {
+  width: 100%;
+}
+
+.groups .table__show {
+  margin-left: 0;
+}
+
+.groups .table__actions a {
+  margin-left: 0;
+}
+
+.groups__head {
+  background-color: #0084db;
+  color: #fff;
+  padding: 0.75rem;
+  border-bottom: 2px solid #dee2e6;
+  border-top: 1px solid #dee2e6;
+  font-weight: bold;
+}
+
+.groups__wrapper {
+  background: #fff;
+}
+
+.groups__wrapper .row {
+  align-items: center;
+}
+
+.groups__tab {
+  padding: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  border-bottom: 1px solid #cce9ed;
+  border-top: 1px solid #cce9ed;
+}
+
+.groups__wrapper .groups__wrapper .groups__tab,
+.groups__wrapper .groups__wrapper .groups__line {
+  background: #eaf4f5;
+}
+
+.groups__wrapper .groups__wrapper .groups__wrapper .groups__tab,
+.groups__wrapper .groups__wrapper .groups__wrapper .groups__line {
+  background: rgb(193, 223, 224);
+}
+
+.groups__tab:hover {
+  background: #bdd9dd;
+}
+
+.groups__th {
+  padding: 0.75rem;
+}
+
+.groups__tab + .groups__body__wrapper {
+  display: none;
+}
+
+.groups__tab + .groups__body__wrapper--active {
+  display: block;
+}
+
+.groups__line {
+  padding: 0.75rem;
+  border-top: 1px solid #dee2e6;
+  transition: all 0.2s linear;
+}
+
+.groups__line.groups__line--active {
+  display: block;
+}
+
+@media (max-width: 767.98px) {
+  .group__wrapper {
+    margin-bottom: 25px;
+  }
+
+  .groups__intro {
+    overflow-x: scroll;
+  }
+
+  .groups {
+    display: table;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    min-width: 600px;
+  }
+}
