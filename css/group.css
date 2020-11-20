@@ -53,10 +53,15 @@
   background: rgba(0, 132, 219, 0.2);
 }
 
-.groups__wrapper
-  .groups__wrapper
-  .groups__wrapper
-  .groups__line:nth-child(2n + 1) {
+.groups__wrapper .groups__wrapper .groups__line:nth-child(2n + 1) {
+  background: #fff;
+}
+
+.groups__wrapper .groups__wrapper .groups__wrapper .groups__line:nth-child(2n) {
+  background: #f2f9fd;
+}
+
+.groups__wrapper .groups__wrapper .groups__line:nth-child(2n + 1) {
   background: #fff;
 }
 
