@@ -7,3 +7,7 @@ $(".groups__tab").on("click", function () {
 
   $(this).find(".fa-arrow-down").toggleClass("fa-arrow-up");
 });
+
+$(".table__arrow").click(function (evt) {
+  evt.preventDefault();
+});
