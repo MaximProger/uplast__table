@@ -35,8 +35,7 @@
   border-top: 1px solid #cce9ed;
 }
 
-.groups__wrapper .groups__wrapper .groups__tab,
-.groups__wrapper .groups__wrapper .groups__line {
+.groups__wrapper .groups__wrapper .groups__tab {
   background: rgba(0, 132, 219, 0.1);
 }
 
@@ -48,8 +47,7 @@
   padding-left: 2.25rem !important;
 }
 
-.groups__wrapper .groups__wrapper .groups__wrapper .groups__tab,
-.groups__wrapper .groups__wrapper .groups__wrapper .groups__line {
+.groups__wrapper .groups__wrapper .groups__wrapper .groups__tab {
   background: rgba(0, 132, 219, 0.2);
 }
 
